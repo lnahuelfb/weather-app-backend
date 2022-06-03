@@ -13,7 +13,7 @@ interface Data {
 const data: Data = {
   city: 'Aldo Bonzi',
   temperature: '20° C',
-  weather: 'rainy',
+  weather: 'Rainy',
   humidity: '50%',
   wind: '10km/h'
 }
@@ -21,5 +21,5 @@ const data: Data = {
 router.get('/', (_req, res) => {
   res.send(data)
 })
-  
+
 export default router
