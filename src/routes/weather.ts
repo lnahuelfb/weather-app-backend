@@ -5,10 +5,10 @@ const router = express.Router()
 
 const data: Data = {
   city: 'Aldo Bonzi',
-  temperature: '20° C',
-  feelsLike: '19° C',
-  tempMin: '10° C',
-  tempMax: '23° C',
+  temperature: '20°',
+  feelsLike: '19°',
+  tempMin: '10°',
+  tempMax: '23°',
   weather: 'Rainy',
   humidity: '50%',
   wind: '10km/h'
